@@ -5,16 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="10dp"
     tools:context=".MainActivity" >
 
     <EditText
         android:id="@+id/inputEditText"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="top"
         android:hint="Masukkan Teks"
         android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/clearTextbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS TEKS"/>
 
 
 </LinearLayout>
